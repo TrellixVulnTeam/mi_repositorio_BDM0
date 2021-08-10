@@ -8,14 +8,14 @@ $backgroundmobile:black;
 * {
 @if $vista == desktop  {
     @media only screen and (max-width: 769px){ 
-    .logo .mobile rounded mx-auto d-block {display: none;}
+    .logo .mobile{display: none;}
     *{background-color:$backgroundmobile;}
-    body div {color:orange}
+    body div {color:#e48400}
 }
  @if else  $vista == mobile { 
   @media only screen and (min-width: 768px) {
     *{background-color:$backgrounddesktop;}
-    .logo .desktop rounded mx-auto d-block {display: none;}
+    .logo .desktop {display: none;}
     .container-log {margin: 0;
     padding:0; }
     }
