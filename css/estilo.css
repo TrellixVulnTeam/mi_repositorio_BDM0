@@ -7274,3 +7274,8 @@ justify-items: space-between;
 .nav-link {
   margin-left: 2rem;
 }
+.bg{
+  background-image: url(assets/img/logo1.png);
+  height: 50%;
+  background-repeat: repeat;
+}
